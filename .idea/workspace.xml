@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66e2f225-e719-4799-9188-cf67ff6f66a7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/venv/comm.py" beforeDir="false" afterPath="$PROJECT_DIR$/comm.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +35,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\PycharmProjects\SerialtestwithTeensy" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -76,36 +82,52 @@
       <option name="presentableId" value="Default" />
       <updated>1584277203642</updated>
     </task>
+    <task id="LOCAL-00001" summary="Location changed for comm.py">
+      <created>1584288128445</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584288128446</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Location changed for comm.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Location changed for comm.py" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1694" y="0" key="CommitChangelistDialog2" timestamp="1584288093496">
+    <state x="1694" y="0" key="CommitChangelistDialog2" timestamp="1584290764979">
       <screen x="1360" y="0" width="1360" height="728" />
     </state>
-    <state x="1694" y="0" key="CommitChangelistDialog2/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584288093496" />
+    <state x="1694" y="0" key="CommitChangelistDialog2/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584290764979" />
     <state x="1452" y="92" width="1176" height="544" key="DiffContextDialog" timestamp="1584288005345">
       <screen x="1360" y="0" width="1360" height="728" />
     </state>
     <state x="1452" y="92" width="1176" height="544" key="DiffContextDialog/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584288005345" />
-    <state width="1339" height="179" key="GridCell.Tab.0.bottom" timestamp="1584287990066">
+    <state width="1339" height="179" key="GridCell.Tab.0.bottom" timestamp="1584288894426">
       <screen x="1360" y="0" width="1360" height="728" />
     </state>
-    <state width="1339" height="179" key="GridCell.Tab.0.bottom/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584287990066" />
-    <state width="1339" height="179" key="GridCell.Tab.0.center" timestamp="1584287990066">
+    <state width="1339" height="179" key="GridCell.Tab.0.bottom/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584288894426" />
+    <state width="1339" height="179" key="GridCell.Tab.0.center" timestamp="1584288894426">
       <screen x="1360" y="0" width="1360" height="728" />
     </state>
-    <state width="1339" height="179" key="GridCell.Tab.0.center/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584287990066" />
-    <state width="1339" height="179" key="GridCell.Tab.0.left" timestamp="1584287990066">
+    <state width="1339" height="179" key="GridCell.Tab.0.center/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584288894426" />
+    <state width="1339" height="179" key="GridCell.Tab.0.left" timestamp="1584288894426">
       <screen x="1360" y="0" width="1360" height="728" />
     </state>
-    <state width="1339" height="179" key="GridCell.Tab.0.left/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584287990066" />
-    <state width="1339" height="179" key="GridCell.Tab.0.right" timestamp="1584287990066">
+    <state width="1339" height="179" key="GridCell.Tab.0.left/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584288894426" />
+    <state width="1339" height="179" key="GridCell.Tab.0.right" timestamp="1584288894426">
       <screen x="1360" y="0" width="1360" height="728" />
     </state>
-    <state width="1339" height="179" key="GridCell.Tab.0.right/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584287990066" />
+    <state width="1339" height="179" key="GridCell.Tab.0.right/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584288894426" />
     <state x="1372" y="13" key="SettingsEditor" timestamp="1584277988843">
       <screen x="1360" y="0" width="1360" height="728" />
     </state>
     <state x="1372" y="13" key="SettingsEditor/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584277988843" />
+    <state x="1849" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584290696238">
+      <screen x="1360" y="0" width="1360" height="728" />
+    </state>
+    <state x="1849" y="281" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1360.728/1360.0.1360.728@1360.0.1360.728" timestamp="1584290696238" />
   </component>
 </project>
