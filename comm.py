@@ -4,6 +4,7 @@ import serial
 
 import serial.tools.list_ports as SerialPorts
 
+
 class CommModule:
     def __init__(self):
         self.devDescription = "USB Serial Device"
@@ -13,13 +14,13 @@ class CommModule:
 
     def setUp(self):
         self.serial = serial.Serial(self.serialPort, 9600, timeout=10)
-        if(self.serial.isOpen()):
+        if self.serial.isOpen():
             print("Connected to {} on Port: {}".format(self.devDescription, self.serialPort))
 
     def tearDown(self):
-        if (self.serial.isOpen()):
+        if self.serial.isOpen():
             self.serial.close()
-            if(self.serial.isOpen() != True):
+            if self.serial.isOpen() != True:
                 print("Disconnected {} on Port: {}".format(self.devDescription, self.serialPort))
 
     def get_comport(self, devDesc):
@@ -31,7 +32,7 @@ class CommModule:
         return port
 
     def write(self, payload):
-        if (self.serial.isOpen()):
+        if self.serial.isOpen():
             self.serial.write(payload)
             print("Wrote {} bytes".format(sys.getsizeof(payload)))
         else:
@@ -39,8 +40,8 @@ class CommModule:
 
     def read(self):
         bytes_recv = None
-        if (self.serial.isOpen()):
-            while (self.serial.in_waiting == 0):
+        if self.serial.isOpen():
+            while self.serial.in_waiting == 0:
                 pass
             bytes_in = self.serial.in_waiting
             bytes_recv = self.serial.read(bytes_in)
