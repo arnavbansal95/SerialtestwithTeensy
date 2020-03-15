@@ -1,5 +1,4 @@
-import os
-import sys
+from sys import getsizeof
 import serial
 
 import serial.tools.list_ports as SerialPorts
@@ -34,7 +33,7 @@ class CommModule:
     def write(self, payload):
         if self.serial.isOpen():
             self.serial.write(payload)
-            print("Wrote {} bytes".format(sys.getsizeof(payload)))
+            print("Wrote {} bytes".format(getsizeof(payload)))
         else:
             print("Serial Port not Open!")
 
